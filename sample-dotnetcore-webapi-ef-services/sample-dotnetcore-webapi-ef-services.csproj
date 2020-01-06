@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>sample_dotnetcore_webapi_ef_services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.AutoMapper" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\sample-dotnetcore-webapi-ef-infrastructure\sample-dotnetcore-webapi-ef-infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
